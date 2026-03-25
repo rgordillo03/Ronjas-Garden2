@@ -7,7 +7,7 @@ import QUOTES from "./quotes.js";
 
 const CONFIG = {
   // Your Cloudinary cloud name (find it in your Cloudinary dashboard)
-  cloudName: import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || "YOUR_CLOUD_NAME",
+  cloudName: import.meta.env.VITE_CLOUDINARY_CLOUD_NAME || "dzfaz2fry",
 
   // The tag you give your photos in Cloudinary
   photoTag: import.meta.env.VITE_CLOUDINARY_TAG || "ronjas-garden",

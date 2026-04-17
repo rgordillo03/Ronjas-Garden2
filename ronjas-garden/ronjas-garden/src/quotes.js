@@ -131,16 +131,16 @@ const QUOTES = [
   // │  PERSONAL — FROM YOU ❤️                   │
   // │  Edit these to make them yours!          │
   // └──────────────────────────────────────────┘
-  { text: "You are my favorite adventure, and every moment with you feels like coming home.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "I fell in love with the way you fall asleep — slowly, then all at once, like the world finally feels safe.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "You make the ordinary feel extraordinary. A walk, a coffee, a silence — everything shines with you.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "My favorite place in the entire world is right next to you.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "Every picture of us is a reminder: life smiled the day I met you.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "You are my calm in the chaos, my warmth in the cold, my light in the dark.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "I didn't know what home felt like until I found you.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "Thank you for being my person — my partner, my peace, my favorite human.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "With you, I learned that love isn't just a feeling — it's a garden we grow together, every single day.", author: "Rafael G.", category: "Tu amorcito" },
-  { text: "Ronja, you are the most beautiful chapter in my story.", author: "Rafael G.", category: "Tu amorcito" },
+  { text: "You are my favorite adventure, and every moment with you feels like coming home.", author: "Rafael G.", category: "amorcito" },
+  { text: "I fell in love with the way you fall asleep — slowly, then all at once, like the world finally feels safe.", author: "Rafael G.", category: "amorcito" },
+  { text: "You make the ordinary feel extraordinary. A walk, a coffee, a silence — everything shines with you.", author: "Rafael G.", category: "amorcito" },
+  { text: "My favorite place in the entire world is right next to you.", author: "Rafael G.", category: "amorcito" },
+  { text: "Every picture of us is a reminder: life smiled the day I met you.", author: "Rafael G.", category: "amorcito" },
+  { text: "You are my calm in the chaos, my warmth in the cold, my light in the dark.", author: "Rafael G.", category: "amorcito" },
+  { text: "I didn't know what home felt like until I found you.", author: "Rafael G.", category: "amorcito" },
+  { text: "Thank you for being my person — my partner, my peace, my favorite human.", author: "Rafael G.", category: "amorcito" },
+  { text: "With you, I learned that love isn't just a feeling — it's a garden we grow together, every single day.", author: "Rafael G.", category: "amorcito" },
+  { text: "Ronja, you are the most beautiful chapter in my story.", author: "Rafael G.", category: "amorcito" },
 ];
 
 export default QUOTES;

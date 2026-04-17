@@ -81,6 +81,8 @@ const QUOTES = [
 { text: "Tell me, what is it you plan to do with your one wild and precious life?", author: "Mary Oliver", category: "courage" },
 { text: "she stopped waiting to be chosen and chose herself and that was the bravest thing anyone had ever seen", author: "original — in the spirit of Atticus", category: "courage" },
 { text: "this is not starting over. this is continuing — with everything you now know.", author: "original — in the spirit of Rupi Kaur", category: "courage" },
+
+  
  // ┌──────────────────────────────────────────┐
   // │  PSYCHOLOGY & SELF-KNOWLEDGE             │
   // └──────────────────────────────────────────┘

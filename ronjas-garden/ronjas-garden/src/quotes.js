@@ -49,27 +49,56 @@ const QUOTES = [
   { text: "Healing is a matter of time, but it is sometimes also a matter of opportunity.", author: "Hippocrates", category: "ayurveda" },
 
   // ┌──────────────────────────────────────────┐
+  // │  Favourite Authors                       │
+  // └──────────────────────────────────────────┘
+  { text: "The only journey is the one within.", author: "Rainer Maria Rilke", category: "mindfulness" },
+{ text: "Even on the hardest morning the light finds you. Stand in it. Let it be enough.", author: "original — in the spirit of Mary Oliver", category: "mindfulness" },
+{ text: "Go slowly. The flowers do not rush and they are the most beautiful things in the world.", author: "original — in the spirit of Mary Oliver", category: "mindfulness" },
+{ text: "The future enters into us long before it happens.", author: "Rainer Maria Rilke", category: "mindfulness" },
+{ text: "You are worth finding, worth knowing, worth loving.", author: "Atticus", category: "selflove" },
+{ text: "You have been soft and strong in the same breath — do you know how rare that is?", author: "original — in the spirit of Mary Oliver", category: "selflove" },
+{ text: "she was not looking for someone to complete her — she had been whole this entire time, just learning the shape of her own edges", author: "original — in the spirit of Atticus", category: "selflove" },
+{ text: "she learned to hold herself the way she had always wanted someone else to — and that changed everything", author: "original — in the spirit of Warsan Shire", category: "selflove" },
+{ text: "she wore her scars not as wounds but as maps of every hard place she had walked through and survived", author: "original — in the spirit of Atticus", category: "strength" },
+{ text: "there is a kind of woman who builds things quietly — herself, first, then everything else", author: "original — in the spirit of Atticus", category: "strength" },
+{ text: "she speaks and whole rooms rearrange themselves around her voice — she has always had that kind of power", author: "original — in the spirit of Warsan Shire", category: "strength" },
+{ text: "you survived every hard day until now. your record is perfect.", author: "original — in the spirit of Rupi Kaur", category: "strength" },
+{ text: "I live my life in widening circles that reach out across the world.", author: "Rainer Maria Rilke", category: "growth" },
+{ text: "You must give birth to your images. They are the future waiting to be born.", author: "Rainer Maria Rilke", category: "growth" },
+{ text: "You do not just wake up and become the butterfly. Growth is a process.", author: "Rupi Kaur", category: "growth" },
+{ text: "she is not too much. the world was just not big enough for what she was becoming.", author: "original — in the spirit of Rupi Kaur", category: "growth" },
+{ text: "There is still so much that wants to love you — the morning, the cup of tea, your own two hands.", author: "original — in the spirit of Mary Oliver", category: "healing" },
+{ text: "you are allowed to be both the wound and the one who heals it", author: "original — in the spirit of Warsan Shire", category: "healing" },
+{ text: "it is okay to need rest — even the sun sets every single night", author: "original — in the spirit of Rupi Kaur", category: "healing" },
+{ text: "I want to be with those who know secret things, or else alone.", author: "Rainer Maria Rilke", category: "identity" },
+{ text: "You are a girl made of both fire and healing water.", author: "Warsan Shire", category: "identity" },
+{ text: "some days she was the storm and some days she was the calm after — but she was always the sky", author: "original — in the spirit of Atticus", category: "identity" },
+{ text: "What if you stopped apologizing for taking up space — the oak never asks permission to grow", author: "original — in the spirit of Mary Oliver", category: "feminism" },
+{ text: "you came from women who survived. carry that with you on the days you are not sure you will.", author: "original — in the spirit of Warsan Shire", category: "feminism" },
+{ text: "your softness is not weakness — it is the most radical thing you have ever offered a world that keeps asking you to harden", author: "original — in the spirit of Warsan Shire", category: "feminism" },
+{ text: "the women before you also cried on the bathroom floor and got back up. you come from that.", author: "original — in the spirit of Rupi Kaur", category: "feminism" },
+{ text: "Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage.", author: "Rainer Maria Rilke", category: "courage" },
+{ text: "Tell me, what is it you plan to do with your one wild and precious life?", author: "Mary Oliver", category: "courage" },
+{ text: "she stopped waiting to be chosen and chose herself and that was the bravest thing anyone had ever seen", author: "original — in the spirit of Atticus", category: "courage" },
+{ text: "this is not starting over. this is continuing — with everything you now know.", author: "original — in the spirit of Rupi Kaur", category: "courage" },
+ // ┌──────────────────────────────────────────┐
   // │  PSYCHOLOGY & SELF-KNOWLEDGE             │
   // └──────────────────────────────────────────┘
   { text: "What lies behind us and what lies before us are tiny matters compared to what lies within us.", author: "Ralph Waldo Emerson", category: "psychology" },
   { text: "You yourself, as much as anybody in the entire universe, deserve your love and affection.", author: "Buddha", category: "psychology" },
   { text: "The curious paradox is that when I accept myself just as I am, then I can change.", author: "Carl Rogers", category: "psychology" },
-  { text: "Between stimulus and response there is a space. In that space is our power to choose our response.", author: "Viktor Frankl", category: "psychology" },
   { text: "Knowing yourself is the beginning of all wisdom.", author: "Aristotle", category: "psychology" },
-  { text: "The privilege of a lifetime is to become who you truly are.", author: "Carl Jung", category: "psychology" },
   { text: "One does not become enlightened by imagining figures of light, but by making the darkness conscious.", author: "Carl Jung", category: "psychology" },
   { text: "We are not what happened to us. We are what we choose to become.", author: "Carl Jung", category: "psychology" },
-  { text: "Everything that irritates us about others can lead us to an understanding of ourselves.", author: "Carl Jung", category: "psychology" },
   { text: "The only person you are destined to become is the person you decide to be.", author: "Ralph Waldo Emerson", category: "psychology" },
 
+  
   // ┌──────────────────────────────────────────┐
   // │  MOTIVATION & STRENGTH                   │
   // └──────────────────────────────────────────┘
   { text: "She remembered who she was and the game changed.", author: "Lalah Delia", category: "motivation" },
   { text: "You are allowed to be both a masterpiece and a work in progress simultaneously.", author: "Sophia Bush", category: "motivation" },
   { text: "Stars can't shine without darkness.", author: "Unknown", category: "motivation" },
-  { text: "You were given this life because you are strong enough to live it.", author: "Unknown", category: "motivation" },
-  { text: "Difficult roads often lead to beautiful destinations.", author: "Zig Ziglar", category: "motivation" },
   { text: "The wound is the place where the light enters you.", author: "Rumi", category: "motivation" },
   { text: "What if I fall? Oh, but my darling — what if you fly?", author: "Erin Hanson", category: "motivation" },
   { text: "Be patient with yourself. Nothing in nature blooms all year.", author: "Unknown", category: "motivation" },
@@ -79,13 +108,10 @@ const QUOTES = [
   // ┌──────────────────────────────────────────┐
   // │  GROWTH                                  │
   // └──────────────────────────────────────────┘
-  { text: "Growth is uncomfortable because you've never been here before.", author: "Unknown", category: "growth" },
   { text: "The only way to make sense out of change is to plunge into it, move with it, and join the dance.", author: "Alan Watts", category: "growth" },
   { text: "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.", author: "Anaïs Nin", category: "growth" },
   { text: "Not all storms come to disrupt your life — some come to clear your path.", author: "Paulo Coelho", category: "growth" },
-  { text: "In the middle of difficulty lies opportunity.", author: "Albert Einstein", category: "growth" },
   { text: "Become the person who would attract the results you seek.", author: "Jim Cathcart", category: "growth" },
-  { text: "Life begins at the end of your comfort zone.", author: "Neale Donald Walsch", category: "growth" },
   { text: "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.", author: "Maya Angelou", category: "growth" },
   { text: "The lotus flower blooms most beautifully from the deepest and thickest mud.", author: "Buddhist Proverb", category: "growth" },
 
@@ -95,11 +121,8 @@ const QUOTES = [
   { text: "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.", author: "Maya Angelou", category: "love" },
   { text: "The best thing to hold onto in life is each other.", author: "Audrey Hepburn", category: "love" },
   { text: "Love does not consist of gazing at each other, but in looking outward together in the same direction.", author: "Antoine de Saint-Exupéry", category: "love" },
-  { text: "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear.", author: "Oscar Wilde", category: "love" },
   { text: "Whatever our souls are made of, his and hers are the same.", author: "Emily Brontë", category: "love" },
   { text: "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.", author: "Lao Tzu", category: "love" },
-  { text: "We loved with a love that was more than love.", author: "Edgar Allan Poe", category: "love" },
-  { text: "The greatest happiness of life is the conviction that we are loved.", author: "Victor Hugo", category: "love" },
 
   // ┌──────────────────────────────────────────┐
   // │  PERSONAL — FROM YOU ❤️                   │

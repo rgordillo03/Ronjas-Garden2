@@ -37,7 +37,7 @@ const C = {
 
 const CATEGORY_ICONS = {
   yoga: "🧘‍♀️", mindfulness: "🍃", ayurveda: "🌿", psychology: "🦋", healing : "❤️‍🩹",
-  motivation: "✨", growth: "🌱", love: "❤️", amorcito: 🐉", feminism: "♀️"
+  motivation: "✨", growth: "🌱", love: "❤️", amorcito: "🐉", feminism: "♀️"
 };
 
 // ─── LEAF DECORATION ─────────────────────────────────────────────

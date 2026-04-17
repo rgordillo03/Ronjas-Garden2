@@ -161,7 +161,7 @@ export default function App() {
   if (screen === "landing") {
     return (
       <div style={{
-        minHeight: "100vh", minHeight: "100dvh",
+        minHeight: "100dvh",
         background: `linear-gradient(180deg, ${C.cream} 0%, ${C.warmWhite} 50%, ${C.cream} 100%)`,
         display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
         padding: "40px 24px", position: "relative", overflow: "hidden",
@@ -282,7 +282,7 @@ export default function App() {
   // ─── MAIN SCREEN ───────────────────────────────────────────────
   return (
     <div style={{
-      minHeight: "100vh", minHeight: "100dvh",
+      minHeight: "100dvh",
       background: `linear-gradient(180deg, ${C.cream} 0%, ${C.warmWhite} 40%, ${C.cream} 100%)`,
       display: "flex", flexDirection: "column", alignItems: "center",
       padding: "32px 20px 40px", position: "relative", overflow: "hidden",

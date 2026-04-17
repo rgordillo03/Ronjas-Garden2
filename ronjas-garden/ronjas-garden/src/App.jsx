@@ -36,8 +36,8 @@ const C = {
 };
 
 const CATEGORY_ICONS = {
-  yoga: "🧘‍♀️", mindfulness: "🍃", ayurveda: "🌿", psychology: "🦋",
-  motivation: "✨", growth: "🌱", love: "💛", personal: "🤍",
+  yoga: "🧘‍♀️", mindfulness: "🍃", ayurveda: "🌿", psychology: "🦋", healing : "❤️‍🩹",
+  motivation: "✨", growth: "🌱", love: "❤️", Rafael: "🐉", feminism: "♀️"
 };
 
 // ─── LEAF DECORATION ─────────────────────────────────────────────
